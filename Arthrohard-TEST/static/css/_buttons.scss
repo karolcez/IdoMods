@@ -1,0 +1,45 @@
+
+.btn {
+	padding: 10px 40px;
+	border: 0;
+	font-weight: 700;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn-center {
+	margin: auto;
+	display: block;
+}
+
+.btn-green {
+	background-color: #30AB4C;
+	color: #F6F6F6;
+}
+
+.btn-darkred {
+	background-color: $darkredColor;
+	color: #F6F6F6;
+}
+.btn-menu {
+	float: right;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	z-index: 2001;
+	position: relative;
+	display: none;
+	top: 2px;
+
+	@media only screen and (max-width: $mdScreenWidth) {
+		display: block;
+	}
+}
+.close-btn {
+    position: absolute;
+    right: 20px;
+    border: 0;
+    font-size: 31px;
+    cursor: pointer;
+    background-color: transparent;
+}
