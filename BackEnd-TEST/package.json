@@ -1,0 +1,25 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karol",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@api/idosell": "file:.api/apis/idosell",
+    "axios": "^1.8.1",
+    "basic-auth": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-basic-auth": "^1.2.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongoose": "^8.11.0",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}
